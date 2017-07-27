@@ -49,5 +49,16 @@ statoilnetwork/carbonate/
 a.out
 .idea/
 temp_scripts/
+
 run_scripts/
 py_dp/scripts
+plot_scripts/plot_test_uncorrelated_cees.py
+plot_scripts/side_by_side_corr_uncorr.py
+py_dp/dispersion/dispersion_continua.py
+py_dp/dispersion/independent_dispersion_models.py
+py_dp/dispersion/independent_transition_models.py
+sample_scripts/make_grid.py
+sample_scripts/script_files/100_100_periodic_100.pkl
+sample_scripts/script_files/permeability_100_100.csv
+sample_scripts/solver_sample.py
+
