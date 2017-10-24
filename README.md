@@ -8,7 +8,11 @@ This code is for modeling macro-dispersion in random porous networks with tempor
 * The stencil method and the extended stencil method
 * An implementation of correlated CTRW for benchmarking results
 
-### How do I get set up? ###
+For details about the ideas and models used in this code please refer to
+[Temporal Markov Processes for Transport in Porous Media: Random Lattice Networks](https://arxiv.org/abs/1708.04173)
+
+
+### How do I set it up? ###
 
 * First clone this repository.
 * Add the parent directory of py_dp to your Python path. In linux you will need to
