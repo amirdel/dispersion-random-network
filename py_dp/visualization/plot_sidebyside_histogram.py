@@ -38,11 +38,9 @@ def plot_sidebyside_transition_prob(stencil_model, stencil_data, extended_model,
         ax2 = fig.add_subplot(1,2,2)
         # plot the stencil method plots
         ax.step(index, stencil_data[:,col], where='mid', label= label_str1)
-        ax.hold(True)
         ax.step(index, stencil_markov[:, col], 'g--',where='mid', label=label_str2)
         # plot the extended stencil plots
         ax2.step(index, extended_data[:,col], where='mid', label= label_str1)
-        ax2.hold(True)
         ax2.step(index, extended_markov[:, col], 'g--',where='mid', label=label_str2)
         # plot labels
         ax.set_ylabel("probability")
