@@ -984,7 +984,7 @@ def compare_trans_mat(trans_matrix_1, trans_matrix_2, lag, figure_save_folder, p
     cbar.set_ticks(tick_array)
     # plt.tight_layout()
     # fig.colorbar(p, cax=ax_cmap)
-    if prefix == 'v':
+    if prefix.startswith('v'):
         prev = r'($v_n$)'
         next = r'($v_{n+1}$)'
         next_str = 'next velocity class'
