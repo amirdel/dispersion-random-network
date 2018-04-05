@@ -50,3 +50,4 @@ a.out
 .idea/
 #temp_scripts/
 network_paper/plots
+network_paper/temp_plots
