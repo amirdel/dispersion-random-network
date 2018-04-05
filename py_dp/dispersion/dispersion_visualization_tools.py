@@ -398,6 +398,8 @@ def plot_plume_2d_from_saved(t_target, nlevels, X, Y, Z, Z2, y_center, dy, save_
         map1 = Z[plot_idx]
         map1[map1 < 1e-6] = np.nan
         # ax.contourf(X/l_scale, Y/l_scale, map1, levels=levels, cmap=cmap, alpha=opacity)
+        Y = Y - y_center
+        y_center = 0.0
         ax.contourf(X/l_scale, Y/l_scale, map1, levels=levels, colors =colors, alpha=opacity)
         # ax.contour(X / l_scale, Y / l_scale, map1, levels=levels, colors = colors)
         # ax.contour(X / l_scale, Y / l_scale, map1, levels=levels, colors='b')
