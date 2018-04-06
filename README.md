@@ -1,4 +1,5 @@
-# Modeling dispersion in porous media #
+# Modeling dispersion in porous media # [![DOI](https://zenodo.org/badge/98583087.svg)](https://zenodo.org/badge/latestdoi/98583087)
+
 
 ### What is this repository for? ###
 
@@ -31,4 +32,8 @@ After the setup steps you can run `sample_scripts/workflow_dispersion_in_random_
 This file includes all the steps necessary to generate the input data for a small 100x100
 structured network, generating MC data, and model the data using Markov models.
 
+### Generating the plots in the publication ###
+
+Direct to `network_paper/plot_scripts` and run `python network_paper_plots.py`.
+The plots will be stored in the `network_paper/plots` folder.
 
